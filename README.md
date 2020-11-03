@@ -13,7 +13,7 @@ https://github.com/kawamataryo/resume-template
 
 ## See on web
 
-https://github.com/miyakona/resume
+https://miyakona.github.io/resume/
 
 ## Get PDF
 

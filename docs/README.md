@@ -6,7 +6,6 @@
 |---|---|
 |氏名|いのもえ|
 |生年月日|1992/11/22|
-|portfolio|[https://miyakona.github.io/](https://miyakona.github.io/)|
 |blog|[https://kyanite.hatenablog.com/](https://kyanite.hatenablog.com/)|
 
 ---
