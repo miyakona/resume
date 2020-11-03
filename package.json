@@ -6,6 +6,11 @@
     "lint": "textlint docs/README.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint"
+    }
+  },
   "keywords": [],
   "devDependencies": {
     "husky": "^5.0.0-alpha.6",

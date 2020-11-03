@@ -6,8 +6,8 @@
 |---|---|
 |氏名|いのもえ|
 |生年月日|1992/11/22|
-|portfolio|https://miyakona.github.io/|
-|blog|https://kyanite.hatenablog.com/|
+|portfolio|[https://miyakona.github.io/](https://miyakona.github.io/)|
+|blog|[https://miyakona.github.io/](https://kyanite.hatenablog.com/)|
 
 ---
 
@@ -199,4 +199,4 @@ DMM のほぼ全サービスで利用中の API のリプレイス。
 
 ## 業務外活動
 
-- 個人開発で LINEbot の保守運用： https://github.com/miyakona/usako
+- 個人開発で LINEbot の保守運用： [https://github.com/miyakona/usako](https://github.com/miyakona/usako)
