@@ -1,10 +1,9 @@
 # inomoe resume
 
-[![textlint](https://img.shields.io/github/workflow/status/miyakona/resume/lint%20text?label=textlint&logo=github&color=yellow)](https://github.com/miyakona/resume/actions?query=workflow%3A%22lint+text%22)
-[![build pdf](https://img.shields.io/github/workflow/status/miyakona/resume/build-pdf?label=build%20pdf&logo=github)](https://github.com/miyakona/resume/actions?query=workflow%3A%22build+pdf%22)
-[![create issue](https://img.shields.io/github/workflow/status/miyakona/resume/create%20issue?label=create%20issue&logo=github&color=orange)](https://github.com/miyakona/resume/actions?query=workflow%3A%22create+issue%22)
-[![release date](https://img.shields.io/github/release-date/miyakona/resume?color=blue&logo=github)](https://github.com/miyakona/resume/releases)
-
+![lint text](https://github.com/miyakona/resume/workflows/lint%20text/badge.svg)
+![create issue](https://github.com/miyakona/resume/workflows/create%20issue/badge.svg)
+![build pdf](https://github.com/miyakona/resume/workflows/build%20pdf/badge.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/miyakona/resume)
 
 ## Template
 
