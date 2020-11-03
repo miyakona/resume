@@ -8,8 +8,6 @@
 |生年月日|1992/11/22|
 |blog|[https://kyanite.hatenablog.com/](https://kyanite.hatenablog.com/)|
 
----
-
 ## 保有スキル
 
 - php でのサーバーサイド設計・実装
@@ -199,3 +197,5 @@ DMM のほぼ全サービスで利用中の API のリプレイス。
 ## 業務外活動
 
 - 個人開発で LINEbot の保守運用： [https://github.com/miyakona/usako](https://github.com/miyakona/usako)
+- LINE スタンプの制作・販売： [販売中スタンプ](https://store.line.me/stickershop/author/241940)
+- サコッシュなどの雑貨の制作・販売： [販売中雑貨](https://miyakona.booth.pm/)
