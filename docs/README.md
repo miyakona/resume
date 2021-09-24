@@ -84,6 +84,7 @@
 治験 CRM サービスの一部機能を切り出して社内・社外のコールセンター部門で利用するシステムを新たに構築する。
 
 - チーム規模 : 4 名（エンジニア 2 名、PdM 2 名、デザイナー 1 名）
+<!-- textlint-disable ja-technical-writing/max-comma-->
 - 採用技術 : TypeScript, Next.js, AWS, PostgreSQL, Chakra UI 
 - 担当フェーズ : 設計、実装
 - 担当内容 :
@@ -100,7 +101,9 @@ QLife で募集した治験応募者を管理するサービスの保守・運�
 
 - チーム規模 : 3 名（エンジニア 1 名、デザイナー 1 名、PdM 1 名）
 - 採用技術
+<!-- textlint-disable ja-technical-writing/max-comma -->
   - CRM サービス : PHP, Laravel, AWS, PostgreSQL, Vue.js
+<!-- textlint-disable ja-technical-writing/max-comma -->
   - 周辺サービス : BigQuey, DataPortal, FuelPHP, jQuery, PostgreSQL, Python
 - 担当フェーズ : 要件定義、設計、実装、テスト、リリース、保守、運用
 - 担当内容 :
@@ -126,6 +129,7 @@ QLife で募集した治験応募者を管理するサービスの保守・運�
 対応時には設計からリリースまで一貫して対応していました。
 
 - チーム規模 : 3 名（エンジニア 1 名、デザイナー 1 名、PdM 1 名）
+<!-- textlint-disable ja-technical-writing/max-comma -->
 - 採用技術 : PHP, FuelPHP, AWS, PostgreSQL
 - 担当フェーズ : 要件定義、設計、実装、テスト、リリース、保守、運用
 - 担当内容 :
@@ -139,7 +143,7 @@ QLife で募集した治験応募者を管理するサービスの保守・運�
 
 ### 合同会社DMM.com（2015/04〜2019/10）
 
-サーバーサイドエンジニア（ PHP ）として勤務していました。
+サーバーサイドエンジニア（PHP）として勤務していました。
 
 主に FuelPHP , たまに Laravel のサービスを保守していました。
 
