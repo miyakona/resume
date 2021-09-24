@@ -6,7 +6,7 @@
         "severity": "warning"
       },
       "max-comma": {
-        "max": 3
+        "max": 5
       },
       "max-ten": {
         "max": 3
