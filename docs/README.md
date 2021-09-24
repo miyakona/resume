@@ -19,6 +19,7 @@
 |氏名|いのもえ|
 |生年月日|1992/11/22|
 |blog|[https://kyanite.hatenablog.com/](https://kyanite.hatenablog.com/)|
+|GitHub|<a href="https://github.com/miyakona" target="_blank"><img alt="Github" src="https://img.shields.io/badge/miyakona-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>|
 
 ## 保有スキル
 
@@ -45,43 +46,41 @@
 # 技術スタック
 
 ## 言語
-
-- PHP（5 系、 7 系）
-- JavaScript（ES6）
-- GoogleAppScript
-- TypeScript
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white&style=flat-square)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&style=flat-square)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white&style=flat-square)
 
 ## DB, KVS
-
-- MySQL
-- PostgreSQL
-- Couchbase
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white&style=flat-square)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white&style=flat-square)
+![Couchbase](https://img.shields.io/badge/Couchbase-EA2328?style=for-the-badge&logo=couchbase&logoColor=white&style=flat-square)
 
 ## インフラ関係
 
-- nginx, php-fpm
-- Apache
-- VM Ware, vagrant
-- Docker, docker-compose
-- Ansible, chef
-- Terrafrom
-- AWS
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white&style=flat-square)
+![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white&style=flat-square)
+![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white&style=flat-square)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white&style=flat-square)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white&style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white&style=flat-square)
+- 2021/06 AWS Certified Solutions Architect - Associate (SAA) 取得
 
 ## フレームワーク・その他
-
-- FuelPHP, Laravel
-- Vue.js, Next.js
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white&style=flat-square)
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D&style=flat-square)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white&style=flat-square)
+![CircleCI](https://img.shields.io/badge/CIRCLECI-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white&style=flat-square)
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white&style=flat-square)
+- FuelPHP
 - Chakra UI, Bootstrap4
-- Jenkins, CircleCI, Digdag
+- Digdag
 - DataPortal, BigQuery
 - SendGrid
 - WiLLMail
 - LINE MessagingAPI（個人開発）
 - firebase（個人開発）
 - Nuxt.js（個人開発）
-
-## 資格
-- 2021/06 AWS Certified Solutions Architect - Associate (SAA) 取得
 
 ---
 <a id="carrer"></a>
@@ -94,7 +93,7 @@
 
 エンジニアの役割を分けていないため、関わったサービスはインフラ〜フロントまですべて対応していました。
 
-また、エンジニアの採用担当として書類選考、一次面接の対応を行っていました。
+開発業務のほか、輪読会の主催や採用担当（書類選考、面接対応）を行っていました。
 
 ### 外部コールセンター向けシステムの構築（2021/05〜2021/08）
 
@@ -163,6 +162,8 @@ QLife で募集した治験応募者を管理するサービスの保守・運�
 主に FuelPHP , たまに Laravel のサービスを保守していました。
 
 インフラを保守する横断チームがあったため、基本的にはオンプレミスサーバや AWS の保守は横断チームにお願いしていました。
+
+開発業務のほか、輪読会の主催や新卒社員のメンターを行っていました。
 
 ### DMM電子書籍への読み放題機能追加 (2019/04 〜 2019/10)
 
