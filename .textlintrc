@@ -106,7 +106,9 @@
       "ja-space-after-question": false,
       "ja-no-space-between-full-width": false
     },
-    "spellcheck-tech-word": true,
+    "@proofdict/proofdict": {
+      "dictURL": "https://azu.github.io/proof-dictionary/"
+    },
     "period-in-list-item": {
       "periodMark": "",
       "periodMarks": [
