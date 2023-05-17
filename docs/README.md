@@ -27,18 +27,16 @@
 - PHP でのサーバーサイド設計・実装
 - JavaScript, TypeScript を用いてのフロントエンド実装
 - チームビルド
-- 案件進行
 - 採用実務
+- スクラムマスターとしてスクラムおよび LeSS の運営
 
 ---
 
 ## 意欲・興味
 
-- 「関わったサービスの一番のオタクになる」がモットーです
-- ビジネスロジックが複雑、かつ、売上に貢献しているシステムを改善するのが好きです
+- プロダクト開発に関わる人が納得して作業を進められる環境の構築や運用に興味があります
 - 小さくサイクルを回し、フィードバックをこまめに受け取れる環境を好みます
 - 美しいシステムよりも、ユーザーに対して早く価値提供できることに価値を感じます
-- サーバーサイドの開発が比較的得意ですが、インフラやフロントエンドの開発もできるようになりたいです
 - 「チームでうまくやる」ことに興味があります
 
 ---
@@ -68,7 +66,12 @@
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white&style=flat-square)
 - 2021/06 AWS Certified Solutions Architect - Associate (SAA) 取得
 
-## フレームワーク・その他
+## 開発手法
+<img src="https://bcert.me/bc/html/img/badges/generated/badge-7227.png" width="100">
+
+- 2023/04 Certified ScrumMaster® (CSM®) 取得（[BadgeCert](https://bcert.me/sbemvmljs)）
+
+## フレームワーク等
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white&style=flat-square)
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D&style=flat-square)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white&style=flat-square)
@@ -93,13 +96,35 @@
 
 ## 株式会社シャペロン（2023/01〜現在）
 
-基本的にはスクラムマスタとして従事しながら、採用やその他の活動にも関わりました。
+大規模スクラムの一つである LeSS を採用しているチームでスクラムマスターとして従事しました。
 
-### スクラムマスタ（2023/01〜現在）
+この他、エンジニアの採用活動にも関わりました。
 
-- 担当内容 : 
-  - 各スクラムイベント改善
-  - チーム再編プロジェクトのファシリテーター
+### スクラムマスター（2023/01〜現在）
+
+チーム規模: 
+- PO 1 名
+- チーム 3 つ
+  - エンジニア 11 名
+  - PdM ３ 名
+- スクラムマスター 1 名（〜2023/05 の期間は 2 名体制）
+
+#### LeSS 運用
+- 新メンバーオンボーディング時のスクラムおよび LeSS の説明
+- スクラムに関する内容のコーチング
+  - 各スクラムイベントにてコーチングやファシリテーション
+  - LeSS サイトの内容読み合わせ会への参加（読み合わせ中、勘違いがあれば補足するなどの対応を行いました）
+- スプリント期間の変更
+- 今後発生しそうな課題、すでに発生しかけている課題を CTO と協議
+- 合意形成のためのワークショップ実施
+  - Done の定義の策定
+  - 役割と責任範囲の認識合わせ
+
+### 採用業務（2023/03〜現在）
+- LAPRAS 運用
+  - 候補者のスクリーニング
+  - スカウト文作成
+- 面接対応
 
 <a id="carrer_qlife"></a>
 
