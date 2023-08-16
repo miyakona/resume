@@ -1,6 +1,5 @@
 # 職務経歴書
 
-
 1. [基本情報](#basic)
 1. [技術スタック](#skills)
 1. [職務経歴](#carrer)
@@ -153,8 +152,7 @@
 
 開発業務のほか、輪読会の主催や採用担当（書類選考、面接対応）を行っていました。
 
-<details>
-<summary>more</summary>
+<details><summary>more</summary><br>
 
 ### エンジニアリングマネージャー（2022/06〜2022/12）
 
@@ -284,6 +282,7 @@ QLife で募集した治験応募者を管理するサービスの保守・運�
   - 会員データの可視化環境を整備（BigQruery + DataPortal）
   - 運用改善ツールの開発
   - クライアントからのシステム調査への回答
+
 </details>
 
 <a id="carrer_dmm"></a>
@@ -298,8 +297,7 @@ QLife で募集した治験応募者を管理するサービスの保守・運�
 
 開発業務のほか、輪読会の主催や新卒社員のメンターを行っていました。
 
-<details>
-<summary>more</summary>
+<details><summary>more</summary><br>
 
 ### DMM電子書籍への読み放題機能追加 (2019/04 〜 2019/10)
 
