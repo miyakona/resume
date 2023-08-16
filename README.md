@@ -5,13 +5,7 @@
 ![build pdf](https://github.com/miyakona/resume/workflows/build%20pdf/badge.svg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/miyakona/resume)
 
-## Template
-
-Thank you!
-
-https://github.com/kawamataryo/resume-template
-
-## See on web
+## View on web
 
 https://miyakona.github.io/resume/
 
