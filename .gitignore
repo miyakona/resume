@@ -3,3 +3,5 @@ node_modules
 **/*.pdf
 yarn-error.log
 .cache
+.yarn/
+_site/
