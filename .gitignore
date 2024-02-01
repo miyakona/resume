@@ -4,3 +4,4 @@ node_modules
 yarn-error.log
 .cache
 .yarn/
+_site/assets/
