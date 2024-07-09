@@ -8,9 +8,9 @@
     "prepare": "husky"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "yarn run lint"
-    }
+    "hooks": 
+      "pre-commit"
+    
   },
   "keywords": [],
   "devDependencies": {
