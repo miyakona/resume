@@ -69,8 +69,10 @@
 
 ## 開発手法
 <img src="https://bcert.me/bc/html/img/badges/generated/badge-7227.png" width="100">
+<img src="https://less.works/badges/certified-less-practitioner.png" width="100">
 
 - 2023/04 Certified ScrumMaster® (CSM®) 取得（[BadgeCert](https://bcert.me/sbemvmljs)）
+- 2024/11 Certified LeSS Practitioner（CLP）取得（[証明書](https://less.works/certificates/moe-hasegawa-58187912588.pdf)）
 
 ## フレームワーク等
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white&style=flat-square)
