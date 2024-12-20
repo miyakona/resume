@@ -11,3 +11,6 @@ gem "github-pages", "~> 228", group: :jekyll_plugins do
     gem 'jekyll-commonmark-ghpages'
   end
 gem "google-protobuf", "3.19.6"
+gem 'csv'
+gem 'webrick'
+gem 'faraday-retry'
