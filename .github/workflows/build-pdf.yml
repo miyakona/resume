@@ -2,9 +2,9 @@ name: build pdf
 
 on:
   workflow_dispatch:
-  # push:
-  #   tags:
-  #   - 'v*'
+  push:
+    tags:
+    - 'v*'
 
 jobs:
   build:
