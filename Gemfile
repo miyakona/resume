@@ -10,7 +10,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "github-pages", "~> 228", group: :jekyll_plugins do
     gem 'jekyll-commonmark-ghpages'
   end
-gem "google-protobuf", "3.19.6"
+gem "google-protobuf", ">= 3.25.5"
 gem 'csv'
 gem 'webrick'
 gem 'faraday-retry'
