@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 markdown: CommonMarkGhPages
+baseurl: "/resume"
 commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
