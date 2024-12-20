@@ -27,7 +27,7 @@ jobs:
       
       # PDFビルド時に --no-sandbox オプションを適用
       - name: build pdf
-        run: npm run build:pdf -- --no-sandbox
+        run: npm run build:pdf
       
       - name: create release
         id: create_release
