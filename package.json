@@ -38,5 +38,10 @@
   "packageManager": "yarn@4.1.0",
   "dependencies": {
     "puppeteer": "^23.11.1"
+  },
+  "resolutions": {
+    "ws": "^8.17.1",
+    "path-to-regexp": "^3.3.0",
+    "minimatch": "^3.0.5"
   }
 }
