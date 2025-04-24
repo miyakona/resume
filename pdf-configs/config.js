@@ -16,4 +16,12 @@ module.exports = {
   launch_options: {
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   },
+  html_body: `<script>
+    window.onload = function() {
+      var detailsElements = document.querySelectorAll('details');
+      for (var i = 0; i < detailsElements.length; i++) {
+        detailsElements[i].setAttribute('open', 'true');
+      }
+    };
+  </script>`
 };

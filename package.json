@@ -4,7 +4,7 @@
   "description": "resume template",
   "scripts": {
     "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "build:pdf": "node scripts/generate-pdf.js",
     "prepare": "husky"
   },
   "husky": {

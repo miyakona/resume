@@ -14,31 +14,34 @@
 
 # 基本情報
 
-|key|value|
-|---|---|
-|氏名|いのもえ|
-|生年月日|1992/11/22|
-|note|[https://note.com/miyakona](https://note.com/miyakona)|
-|LAPRAS|[https://lapras.com/public/miyakona](https://lapras.com/public/miyakona)|
-|GitHub|<a href="https://github.com/miyakona" target="_blank"><img alt="Github" src="https://img.shields.io/badge/miyakona-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>|
-|ざっくり職歴|もともとエンジニアとして従事していましたが、 2023 年からはスクラムマスターとして従事するようになりました|
+### プロフィール
+- **氏名**：いのもえ
+- **生年月日**：1992/11/22
+- **職歴**：エンジニア（2015〜2022）→ スクラムマスター（2023〜現在）
+
+### SNS/Portfolio
+[![Github](https://img.shields.io/badge/GitHub-miyakona-%2312100E.svg?style=flat-square&logo=Github&logoColor=white)](https://github.com/miyakona)
+[![Note](https://img.shields.io/badge/note.com-miyakona-41C9B4?style=flat-square&logo=note&logoColor=white)](https://note.com/miyakona)
+[![LAPRAS](https://img.shields.io/badge/LAPRAS-miyakona-00A1E9?style=flat-square&logo=lapras&logoColor=white)](https://lapras.com/public/miyakona)
 
 ## 保有スキル
 
-- スクラムマスターとしてスクラムおよび LeSS の運営
+### マネジメント
+- スクラム・LeSS 運営
 - ファシリテーション
-- チームビルド
+- チームビルディング
 - 採用実務
-- PHP でのサーバーサイド設計・実装
-- JavaScript, TypeScript を用いてのフロントエンド実装
 
----
+### 開発
+- サーバーサイド設計・実装（PHP）
+- フロントエンド実装（JS/TS）
+- インフラ構築・運用
 
-## 意欲・興味
+## 興味・価値観
 
-- プロダクトに関わる様々な立場の人達が交わりながら、一緒にプロダクトを作る環境の構築や運用に興味がある
-- 小さくサイクルを回し、フィードバックをこまめに受け取れる環境を好む
-- 美しいシステムよりも、ユーザーに対して早く価値提供できることに価値を感じる
+- **チーム協働**：多様な立場の人々が交わりながら一緒にプロダクトを作る環境構築
+- **アジャイル開発**：小さくサイクルを回し、頻繁にフィードバックを受け取る開発スタイル
+- **価値提供重視**：美しいシステムよりも、ユーザーへの素早い価値提供を重視
 
 ---
 
@@ -46,59 +49,59 @@
 
 # 技術スタック
 
-## 言語
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white&style=flat-square)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&style=flat-square)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white&style=flat-square)
+## 言語・フレームワーク
 
-## DB, KVS
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white&style=flat-square)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white&style=flat-square)
-![Couchbase](https://img.shields.io/badge/Couchbase-EA2328?style=for-the-badge&logo=couchbase&logoColor=white&style=flat-square)
-
-## インフラ関係
-
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white&style=flat-square)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white&style=flat-square)
-![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white&style=flat-square)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white&style=flat-square)
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white&style=flat-square)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white&style=flat-square)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white&style=flat-square)
-- 2021/06 AWS Certified Solutions Architect - Associate (SAA) 取得
-
-## 開発手法
-<img src="https://bcert.me/bc/html/img/badges/generated/badge-7227.png" width="100">
-<img src="https://less.works/badges/certified-less-practitioner.png" width="100">
-
-- 2023/04 Certified ScrumMaster® (CSM®) 取得（[BadgeCert](https://bcert.me/sbemvmljs)）
-- 2024/11 Certified LeSS Practitioner（CLP）取得（[証明書](https://less.works/certificates/moe-hasegawa-58187912588.pdf)）
-
-## フレームワーク等
+### プログラミング言語
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
 
 ### バックエンド
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white&style=flat-square)
-- FuelPHP
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white)
+![FuelPHP](https://img.shields.io/badge/FuelPHP-%23404d59.svg?style=flat-square)
 
 ### フロントエンド
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D&style=flat-square)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white&style=flat-square)
-- Nuxt.js（個人開発）
-- Chakra UI, Bootstrap4
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D)
+![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-%234FC08D.svg?style=flat-square&logo=nuxt.js&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/Chakra_UI-%23319795.svg?style=flat-square&logo=chakra-ui&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+
+## インフラ・運用
+
+### データベース
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat-square&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
+
+### クラウド
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
+- AWS Certified Solutions Architect - Associate（2021/06 取得）
+
+### インフラ管理
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
 
 ### CI/CD
-![CircleCI](https://img.shields.io/badge/CIRCLECI-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white&style=flat-square)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white&style=flat-square)
+![CircleCI](https://img.shields.io/badge/CircleCI-%23161616.svg?style=flat-square&logo=circleci&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white)
 
-### データ処理・分析
-- Digdag
-- DataPortal, BigQuery
+## 開発手法・ツール
 
-### 外部サービス・API
-- SendGrid
-- WiLLMail
-- LINE MessagingAPI（個人開発）
-- firebase（個人開発）
+### 資格
+<div style="display: flex; gap: 10px;">
+<img src="https://bcert.me/bc/html/img/badges/generated/badge-7227.png" width="100">
+<img src="https://less.works/badges/certified-less-practitioner.png" width="100">
+</div>
+
+- Certified ScrumMaster® (CSM®) 2023/04 取得（[BadgeCert](https://bcert.me/sbemvmljs)）
+- Certified LeSS Practitioner（CLP）2024/11 取得（[証明書](https://less.works/certificates/moe-hasegawa-58187912588.pdf)）
+
+### その他ツール
+- **データ処理**：![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white) ![DataPortal](https://img.shields.io/badge/DataPortal-%234285F4.svg?style=flat-square&logo=google&logoColor=white) ![Digdag](https://img.shields.io/badge/Digdag-%23404d59.svg?style=flat-square)
+- **外部サービス**：![SendGrid](https://img.shields.io/badge/SendGrid-%230A0FFF.svg?style=flat-square&logo=sendgrid&logoColor=white) ![LINE](https://img.shields.io/badge/LINE_API-%2300C300.svg?style=flat-square&logo=line&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=flat-square&logo=firebase&logoColor=black)
 
 ---
 <a id="carrer"></a>
@@ -109,86 +112,47 @@
 
 ## 株式会社シャペロン（2023/01〜現在）
 
-大規模スクラムの 1 つである LeSS を採用しているチームでスクラムマスターとして従事しました。
+大規模スクラム（LeSS）フレームワークを採用した組織でスクラムマスターとして活動。コーチング、ファシリテーション、組織運営、採用活動などを担当しています。
 
-会社全体の規模がそこまで大きくないため、開発に関わる部門だけでなく組織全体に働きかけることもありました。
+<details><summary>主な業務内容</summary><br>
 
-この他、エンジニアの採用活動やコーポレート業務の支援にも関わりました。
+### スクラムマスター業務（2023/01〜現在）
+- **チーム体制**：PO 1 名、3 チーム（エンジニア 10 名程度、PdM 2 名）、SM 2 名
 
-### スクラムマスター（2023/01〜現在）
+#### コーチング・促進活動
+- スクラム・LeSS の原理原則に基づく自律的チーム支援
+- 新メンバーオンボーディング支援、勉強会実施
+- ワークショップ企画・実施（PBI 作成、レトロスペクティブなど）
+- 社内コミュニティでのアジャイル関連情報の定期共有
 
-次のチーム規模でスクラムマスターを担当しました。
-- PO 1 名
-- チーム 3 つ
-  - エンジニア 10 名程度
-  - PdM 2 名
-- スクラムマスター 2 名
+#### ファシリテーション
+- リモート環境での効果的な意見抽出・可視化手法の考案と実践
+  - [関連記事公開](https://note.com/miyakona/m/mdbbbee2284ad)
+- 重要議題の合意形成支援（Done の定義、スプリント期間変更など）
+- チーム間連携の改善、フィーチャーチーム化支援
 
-#### LeSS やスクラム内容のコーチング
-チームに対しスクラムマスターが少ない状況でした。そのため、コーチングの際には各チームで自律的に考えられるよう、主に原理原則を強調して伝えるよう気をつけました。
+#### 組織開発
+- 全社オフサイトミーティングの企画・運営
+- 組織ビジョン策定と浸透施策の検討
+- チーム構造の最適化（スクラムチームと LeSS チームの統合）
+- 部門 OKR 策定支援、経営層との課題協議
 
-##### コーチング例
-- 新メンバーオンボーディング時のスクラムおよび LeSS の説明
-- LeSS サイトの内容読み合わせ会への参加（読み合わせ中、勘違いがあれば補足するなどの対応しました）
-- スクラムや LeSS 関連の特定領域に関するワークショップ、説明会の企画及び実施
-  - PBI 作り方講座
-  - スプリントレトロスペクティブ解説
-  - LeSS におけるマネージャーの役割説明
-  - RSGT の共有
-- 社内コミュニティにてアジャイル関連の資料などを毎営業日ポスト
+#### プロジェクト支援
+- 要件定義ワークショップの実施（ユーザーストーリーマッピングなど）
+- 大規模プロジェクトのファシリテーション
+- 振り返りワークの計画・実施
 
-#### チーム横断での合意形成のサポート
-主に議論内でのファシリテートによってサポートしていました。
+### 採用・コーポレート業務（2023/03〜現在）
+- **採用活動**
+  - エンジニア・SM 候補者のスクリーニングとスカウト
+  - 採用プロセスの設計・改善
+  - 面接官として参加
 
-フルリモート下での議論では同時に複数人で話すことが難しいため、発言しなくても意見を抽出・可視化できるように進め方を工夫しました。
+- **業務効率 化支援**
+  - OKR 可視化 ツールの開発（Google Apps Script）
+  - ツールの運用マニュアル作成
 
-進め方の工夫については[こちらのマガジン](https://note.com/miyakona/m/mdbbbee2284ad)にも一部をまとめています。
-
-##### 議題例
-- Done の定義の策定
-- 役割と責任範囲の認識合わせ
-- スプリント期間の変更
-- フィーチャーチーム化
-- チームの定量指標策定
-
-#### 組織運営のサポート
-LeSS を実践している部門内はもちろん、会社全体を対象とした組織運営についても関わりました。
-
-##### 内容例
-- スクラムチームと LeSS チームの統合
-- 別チームへスクラム導入、スクラムマスター育成
-- 全社を対象としたオフサイト MTG の企画（会場選び、アジェンダづくりなど）・当日司会
-- 組織ビジョン策定、浸透のための施策検討
-- 部門全体に関わる OKR 策定支援
-- 今後発生しそうな課題、すでに発生しかけている課題をマネージャー（CTO など）と協議、状況に応じて個別ヒアリングの実施
-- 各メンバー（マネージャーロール含め）との 1on1 や個別フィードバック（状況に合わせて実施）
-- [LeSS の夜明け](https://japan.less.works/ja/)へのスポンサー提案、社内窓口担当
-
-#### プロジェクト推進のサポート
-各チームで要求定義や要件定義を進めるプロセスとなっていました。
-規模の大きなプロジェクトではチームやステークホルダーが議論に集中できるよう、ファシリテートや進め方の相談に乗る形で支援していました。
-
-##### 実践例
-- 要件定義のためのワークの実施（ユーザーストーリーマッピングや、課題に合わせたワークショップづくり）
-- プロダクト、プロジェクトに関する振り返りワークの実施
-
-### 採用業務（2023/03〜現在）
-エンジニアやスクラムマスターの採用プロセスに関わっています。
-
-プロセスの運用はもちろん、今までプロセスに関わっていなかったメンバーを巻き込むなどのプロセス改善も行いました。
-
-- LAPRAS 、ビズリーチ運用
-  - 候補者のスクリーニング
-  - スカウト文作成（個別の候補者に向けたもの、一括で送るもの）
-- 面接対応（エンジニア、プロダクトマネージャー、スクラムマスター）
-- 採用プロセス構築、改善（ゼロベースでの構築、各工程の組み換え、面接官増員のための調整など）
-
-### コーポレート業務支援（2023/07〜現在）
-
-コーポレート業務効率化の一環でスクリプトファイルを作成、提供していました。
-
-- OKR 可視化（2023/07）
-  - notion 上に記載された OKR の内容や進捗状況をブラウザ上でツリー状に可視化する Google Apps Script 、運用マニュアルの作成
+</details>
 
 <a id="carrer_qlife"></a>
 
@@ -198,7 +162,7 @@ LeSS を実践している部門内はもちろん、会社全体を対象とし
 
 開発業務のほか、輪読会の主催や採用担当も行いました。
 
-<details><summary>主な担当業務</summary><br>
+<details><summary>主な業務内容</summary><br>
 
 ### 組織マネジメント
 - **エンジニアリングマネージャー**（2022/06〜2022/12）
@@ -238,7 +202,7 @@ LeSS を実践している部門内はもちろん、会社全体を対象とし
 
 サーバーサイドエンジニア（PHP）として勤務。主に FuelPHP、Laravel を使用したサービス開発・保守を担当。開発業務のほか、輪読会の主催や新卒社員のメンター活動も行いました。
 
-<details><summary>主なプロジェクト</summary><br>
+<details><summary>主な業務内容</summary><br>
 
 ### 電子書籍サービス関連（2015/10〜2019/10）
 - **読み放題機能追加**（2019/04〜2019/10）

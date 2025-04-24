@@ -39,3 +39,43 @@ hr {
   border-top: 1px solid #ddd;
   margin: 30px 0;
 }
+
+/* すべてのdetailsを常に開いた状態に */
+details {
+  display: block !important;
+}
+
+/* すべてのdetailsを強制的にopenに */
+details:not([open]) {
+  display: block !important;
+}
+
+/* summaryタグを完全に非表示に */
+details > summary {
+  display: none !important;
+}
+
+/* 三角形マーカーを消す (WebKit/Blink ブラウザ用) */
+details > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+/* 三角形マーカーを消す (Firefox用) */
+details > summary::marker {
+  display: none !important;
+}
+
+/* 内容部分を確実に表示 */
+details[open] > *:not(summary) {
+  display: block !important;
+}
+
+/* 内容部分のスタイリング - インデントを削除 */
+details > summary ~ * {
+  margin-left: 0 !important;
+}
+
+/* 主な業務内容というテキストを含むsummaryの特別な処理 - containsは使用不可 */
+summary {
+  font-weight: bold !important;
+}
