@@ -75,20 +75,30 @@
 - 2024/11 Certified LeSS Practitioner（CLP）取得（[証明書](https://less.works/certificates/moe-hasegawa-58187912588.pdf)）
 
 ## フレームワーク等
+
+### バックエンド
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white&style=flat-square)
+- FuelPHP
+
+### フロントエンド
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D&style=flat-square)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white&style=flat-square)
+- Nuxt.js（個人開発）
+- Chakra UI, Bootstrap4
+
+### CI/CD
 ![CircleCI](https://img.shields.io/badge/CIRCLECI-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white&style=flat-square)
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white&style=flat-square)
-- FuelPHP
-- Chakra UI, Bootstrap4
+
+### データ処理・分析
 - Digdag
 - DataPortal, BigQuery
+
+### 外部サービス・API
 - SendGrid
 - WiLLMail
 - LINE MessagingAPI（個人開発）
 - firebase（個人開発）
-- Nuxt.js（個人開発）
 
 ---
 <a id="carrer"></a>
