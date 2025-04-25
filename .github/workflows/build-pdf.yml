@@ -16,20 +16,9 @@ jobs:
         with:
           node-version: '22'
       
-      # Chromeのインストール (md-to-pdfはバックグラウンドでPuppeteerを使用)
-      - name: Install Chrome
-        run: |
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-          google-chrome --version
-      
       # 依存パッケージのインストール
       - name: Install dependencies
-        run: |
-          npm install
-          npm list md-to-pdf
+        run: npm install
       
       # detailsとsummaryタグを削除
       - name: Remove details and summary tags
@@ -37,11 +26,9 @@ jobs:
           sed -i -e 's/<details>//g' -e 's/<\/details>//g' -e 's/<summary>.*<\/summary>//g' docs/README.md
           echo "詳細タグを削除しました"
           
-      # PDFビルド (環境変数設定で--no-sandboxを強制)
+      # PDFビルド
       - name: build pdf
         run: npm run build:pdf
-        env:
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
       
       # 生成されたPDFの確認
       - name: Check generated PDF
