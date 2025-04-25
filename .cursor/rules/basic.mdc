@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- [README.md](mdc:docs/README.md) は .textlintrc を遵守して記載すること
+- ソースコードや記載を変更したら github Actions [build-pdf.yml](mdc:.github/workflows/build-pdf.yml) [lint-text.yml](mdc:.github/workflows/lint-text.yml) がエラーにならないことをローカル環境で確認すること
