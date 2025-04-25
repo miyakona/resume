@@ -51,57 +51,74 @@
 
 ## 言語・フレームワーク
 
-### プログラミング言語
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+
+<!-- 言語 -->
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
 
-### バックエンド
+<!-- バックエンド -->
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white)
 ![FuelPHP](https://img.shields.io/badge/FuelPHP-%23404d59.svg?style=flat-square)
 
-### フロントエンド
+<!-- フロントエンド -->
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D)
 ![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white)
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-%234FC08D.svg?style=flat-square&logo=nuxt.js&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI-%23319795.svg?style=flat-square&logo=chakra-ui&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-## インフラ・運用
-
-### データベース
+<!-- DB -->
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat-square&logo=mysql&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
 
-### クラウド
+<!-- クラウド -->
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
-- AWS Certified Solutions Architect - Associate（2021/06 取得）
 
-### インフラ管理
+<!-- インフラ -->
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
 
-### CI/CD
+<!-- CI/CD -->
 ![CircleCI](https://img.shields.io/badge/CircleCI-%23161616.svg?style=flat-square&logo=circleci&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white)
+
+</div>
 
 ## 開発手法・ツール
 
 ### 資格
-<div style="display: flex; gap: 10px;">
-<img src="https://bcert.me/bc/html/img/badges/generated/badge-7227.png" width="100">
-<img src="https://less.works/badges/certified-less-practitioner.png" width="100">
+<div style="display: flex; gap: 10px; align-items: center;">
+<img src="https://bcert.me/bc/html/img/badges/generated/badge-7227.png" width="80">
+<div>Certified ScrumMaster® (CSM®) 2023/04 取得</div>
 </div>
 
-- Certified ScrumMaster® (CSM®) 2023/04 取得（[BadgeCert](https://bcert.me/sbemvmljs)）
-- Certified LeSS Practitioner（CLP）2024/11 取得（[証明書](https://less.works/certificates/moe-hasegawa-58187912588.pdf)）
+<div style="display: flex; gap: 10px; align-items: center; margin-top: 10px;">
+<img src="https://less.works/badges/certified-less-practitioner.png" width="80">
+<div>Certified LeSS Practitioner（CLP）2024/11 取得</div>
+</div>
 
 ### その他ツール
-- **データ処理**：![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white) ![DataPortal](https://img.shields.io/badge/DataPortal-%234285F4.svg?style=flat-square&logo=google&logoColor=white) ![Digdag](https://img.shields.io/badge/Digdag-%23404d59.svg?style=flat-square)
-- **外部サービス**：![SendGrid](https://img.shields.io/badge/SendGrid-%230A0FFF.svg?style=flat-square&logo=sendgrid&logoColor=white) ![LINE](https://img.shields.io/badge/LINE_API-%2300C300.svg?style=flat-square&logo=line&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=flat-square&logo=firebase&logoColor=black)
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+<!-- データ処理 -->
+![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
+![DataPortal](https://img.shields.io/badge/DataPortal-%234285F4.svg?style=flat-square&logo=google&logoColor=white)
+![Digdag](https://img.shields.io/badge/Digdag-%23404d59.svg?style=flat-square)
+<!-- 外部サービス -->
+![SendGrid](https://img.shields.io/badge/SendGrid-%230A0FFF.svg?style=flat-square&logo=sendgrid&logoColor=white)
+![LINE](https://img.shields.io/badge/LINE_API-%2300C300.svg?style=flat-square&logo=line&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=flat-square&logo=firebase&logoColor=black)
+</div>
+
+<!-- AWS資格情報 -->
+<details>
+<summary>AWS 認定資格</summary>
+AWS Certified Solutions Architect - Associate（2021/06 取得）
+</details>
 
 ---
 <a id="carrer"></a>
