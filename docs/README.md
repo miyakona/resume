@@ -52,9 +52,9 @@
 ## 言語・フレームワーク
 **言語:** PHP, JavaScript, TypeScript  
 **バックエンド:** Laravel, FuelPHP  
-**フロントエンド:** Vue.js, Next.js, Nuxt.js, Chakra UI, Bootstrap  
+**フロントエンド:** React, Vue.js, Next.js, Nuxt.js, Chakra UI  
 **DB:** MySQL, PostgreSQL  
-**インフラ/CI:** AWS, Docker, Terraform, Ansible, Nginx, Apache, CircleCI, Jenkins
+**インフラ/CI:** AWS, Docker, Terraform, Nginx, CircleCI
 
 ## 開発手法・ツール
 

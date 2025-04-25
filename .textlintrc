@@ -2,12 +2,10 @@
   "rules": {
     "preset-ja-technical-writing": {
       "sentence-length": {
-        "max": 120,
+        "max": 150,
         "severity": "warning"
       },
-      "max-comma": {
-        "max": 5
-      },
+      "max-comma": false,
       "max-ten": {
         "max": 3
       },
