@@ -31,6 +31,12 @@ jobs:
           npm install
           npm list md-to-pdf
       
+      # detailsとsummaryタグを削除
+      - name: Remove details and summary tags
+        run: |
+          sed -i -e 's/<details>//g' -e 's/<\/details>//g' -e 's/<summary>.*<\/summary>//g' docs/README.md
+          echo "詳細タグを削除しました"
+          
       # PDFビルド (環境変数設定で--no-sandboxを強制)
       - name: build pdf
         run: npm run build:pdf
