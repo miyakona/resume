@@ -31,12 +31,29 @@ async function generatePDF() {
     console.log(`HTMLを保存中: ${tempHtmlPath}`);
     writeFileSync(tempHtmlPath, content, 'utf8');
 
-    // ブラウザを起動
-    console.log('Puppeteerを起動中...');
-    const browser = await puppeteer.launch({
+    // Puppeteerの起動オプション
+    const puppeteerOptions = {
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
       headless: 'new'
-    });
+    };
+
+    // 環境変数PUPPETEER_EXECUTABLE_PATHが設定されている場合は使用
+    if (process.env.PUPPETEER_EXECUTABLE_PATH) {
+      console.log(`Chromiumパス: ${process.env.PUPPETEER_EXECUTABLE_PATH}`);
+      puppeteerOptions.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
+    }
+
+    // 環境変数PUPPETEER_UNSAFE_FLAGが設定されている場合は追加の起動引数を使用
+    if (process.env.PUPPETEER_UNSAFE_FLAG) {
+      const extraArgs = process.env.PUPPETEER_UNSAFE_FLAG.split(' ');
+      console.log(`追加の起動引数: ${extraArgs.join(', ')}`);
+      puppeteerOptions.args = [...puppeteerOptions.args, ...extraArgs];
+    }
+
+    // ブラウザを起動
+    console.log('Puppeteerを起動中...');
+    console.log('起動オプション:', JSON.stringify(puppeteerOptions, null, 2));
+    const browser = await puppeteer.launch(puppeteerOptions);
     
     // 新しいページを開く
     const page = await browser.newPage();
