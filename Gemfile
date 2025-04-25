@@ -11,6 +11,7 @@ gem "github-pages", "~> 228", group: :jekyll_plugins do
     gem 'jekyll-commonmark-ghpages'
   end
 gem "google-protobuf", ">= 3.25.5"
+gem "nokogiri", ">= 1.18.8"
 gem 'csv'
 gem 'webrick'
 gem 'faraday-retry'
