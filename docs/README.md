@@ -103,22 +103,17 @@
 </div>
 
 ### その他ツール
-<div style="display: flex; flex-wrap: wrap; gap: 5px;">
-<!-- データ処理 -->
+
 ![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
 ![DataPortal](https://img.shields.io/badge/DataPortal-%234285F4.svg?style=flat-square&logo=google&logoColor=white)
 ![Digdag](https://img.shields.io/badge/Digdag-%23404d59.svg?style=flat-square)
-<!-- 外部サービス -->
+
 ![SendGrid](https://img.shields.io/badge/SendGrid-%230A0FFF.svg?style=flat-square&logo=sendgrid&logoColor=white)
 ![LINE](https://img.shields.io/badge/LINE_API-%2300C300.svg?style=flat-square&logo=line&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=flat-square&logo=firebase&logoColor=black)
-</div>
 
-<!-- AWS資格情報 -->
-<details>
-<summary>AWS 認定資格</summary>
+### AWS 認定資格
 AWS Certified Solutions Architect - Associate（2021/06 取得）
-</details>
 
 ---
 <a id="carrer"></a>
