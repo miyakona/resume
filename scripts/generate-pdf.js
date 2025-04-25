@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer');
-const { readFileSync, writeFileSync } = require('fs');
+const { readFileSync } = require('fs');
 const { mdToPdf } = require('md-to-pdf');
 
 async function generatePDF() {
@@ -10,95 +9,41 @@ async function generatePDF() {
     console.log('Markdownファイルを読み込み中...');
     const mdContent = readFileSync('docs/README.md', 'utf8');
 
-    // マークダウンをHTMLに変換
-    console.log('HTMLに変換中...');
-    const { content } = await mdToPdf(
+    console.log('PDFに直接変換します...');
+    // md-to-pdfを使用して直接PDFに変換（Puppeteerを使わない）
+    await mdToPdf(
       { content: mdContent },
       {
+        dest: "./docs/README.pdf",
         stylesheet: "./pdf-configs/style.css",
         body_class: "markdown-body",
         marked_options: {
           headerIds: false,
           smartypants: true,
         },
-        as_html: true,
-        stylesheet_encoding: "utf-8"
+        pdf_options: {
+          format: 'A4',
+          margin: { top: '30mm', right: '20mm', bottom: '30mm', left: '20mm' },
+          printBackground: true,
+          headerTemplate: `<style>
+            section {
+              margin: 0 auto;
+              font-size: 9px;
+            }
+          </style>`,
+          footerTemplate: `<section>
+            <div>
+              <span class="pageNumber"></span>
+              / <span class="totalPages"></span>
+            </div>
+          </section>`
+        },
+        stylesheet_encoding: "utf-8",
+        launch_options: {
+          args: ['--no-sandbox', '--disable-setuid-sandbox']
+        }
       }
     );
-
-    // HTMLを一時ファイルに保存
-    const tempHtmlPath = path.join(process.cwd(), 'temp.html');
-    console.log(`HTMLを保存中: ${tempHtmlPath}`);
-    writeFileSync(tempHtmlPath, content, 'utf8');
-
-    // Puppeteerの起動オプション
-    const puppeteerOptions = {
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-      headless: 'new'
-    };
-
-    // 環境変数PUPPETEER_EXECUTABLE_PATHが設定されている場合は使用
-    if (process.env.PUPPETEER_EXECUTABLE_PATH) {
-      console.log(`Chromiumパス: ${process.env.PUPPETEER_EXECUTABLE_PATH}`);
-      puppeteerOptions.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
-    }
-
-    // 環境変数PUPPETEER_UNSAFE_FLAGが設定されている場合は追加の起動引数を使用
-    if (process.env.PUPPETEER_UNSAFE_FLAG) {
-      const extraArgs = process.env.PUPPETEER_UNSAFE_FLAG.split(' ');
-      console.log(`追加の起動引数: ${extraArgs.join(', ')}`);
-      puppeteerOptions.args = [...puppeteerOptions.args, ...extraArgs];
-    }
-
-    // ブラウザを起動
-    console.log('Puppeteerを起動中...');
-    console.log('起動オプション:', JSON.stringify(puppeteerOptions, null, 2));
-    const browser = await puppeteer.launch(puppeteerOptions);
-    
-    // 新しいページを開く
-    const page = await browser.newPage();
-    
-    // HTMLを読み込み
-    console.log('HTMLを読み込み中...');
-    await page.goto(`file://${tempHtmlPath}`, { waitUntil: 'networkidle0' });
-    
-    // すべてのdetailsタグを展開
-    console.log('詳細を展開中...');
-    await page.evaluate(() => {
-      const detailsElements = document.querySelectorAll('details');
-      console.log(`${detailsElements.length}個の詳細を展開します`);
-      detailsElements.forEach(detail => {
-        detail.setAttribute('open', 'true');
-      });
-    });
-    
-    // PDFを生成
-    console.log('PDFを生成中...');
-    await page.pdf({
-      path: 'docs/README.pdf',
-      format: 'A4',
-      margin: { top: '30mm', right: '20mm', bottom: '30mm', left: '20mm' },
-      printBackground: true,
-      displayHeaderFooter: true,
-      headerTemplate: `<style>
-        section {
-          margin: 0 auto;
-          font-size: 9px;
-        }
-      </style>`,
-      footerTemplate: `<section>
-        <div>
-          <span class="pageNumber"></span>
-          / <span class="totalPages"></span>
-        </div>
-      </section>`
-    });
-    
-    // 一時ファイルを削除
-    fs.unlinkSync(tempHtmlPath);
-    
-    // ブラウザを閉じる
-    await browser.close();
     
     console.log('PDF生成完了: docs/README.pdf');
   } catch (error) {

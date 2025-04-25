@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '22'
       
-      # Chrome安定版をインストール
+      # Chromeのインストール (md-to-pdfはバックグラウンドでPuppeteerを使用)
       - name: Install Chrome
         run: |
           wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -25,23 +25,23 @@ jobs:
           sudo apt-get install -y google-chrome-stable
           google-chrome --version
       
-      # 必要な依存パッケージをインストール
-      - name: Install required libraries for Puppeteer
+      # 依存パッケージのインストール
+      - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
-                                  libxcomposite1 libxrandr2 libxdamage1 libxkbcommon-x11-0 libgbm-dev \
-                                  libgconf-2-4 libxss1 libasound2 libnspr4 libxcursor1 libxtst6
-
-      - run: npm install
+          npm install
+          npm list md-to-pdf
       
-      # PDFビルド時に環境変数を設定してノーサンドボックスモードを強制
+      # PDFビルド (環境変数設定で--no-sandboxを強制)
       - name: build pdf
         run: npm run build:pdf
         env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
-          PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome"
-          PUPPETEER_UNSAFE_FLAG: "--no-sandbox --disable-setuid-sandbox"
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
+      
+      # 生成されたPDFの確認
+      - name: Check generated PDF
+        run: |
+          ls -la docs/
+          file docs/README.pdf
       
       - name: create release
         id: create_release
