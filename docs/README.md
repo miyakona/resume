@@ -50,44 +50,11 @@
 # 技術スタック
 
 ## 言語・フレームワーク
-
-<div style="display: flex; flex-wrap: wrap; gap: 5px;">
-
-<!-- 言語 -->
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
-
-<!-- バックエンド -->
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white)
-![FuelPHP](https://img.shields.io/badge/FuelPHP-%23404d59.svg?style=flat-square)
-
-<!-- フロントエンド -->
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D)
-![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-%234FC08D.svg?style=flat-square&logo=nuxt.js&logoColor=white)
-![Chakra UI](https://img.shields.io/badge/Chakra_UI-%23319795.svg?style=flat-square&logo=chakra-ui&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-
-<!-- DB -->
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat-square&logo=mysql&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
-
-<!-- クラウド -->
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
-
-<!-- インフラ -->
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=flat-square&logo=ansible&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white)
-
-<!-- CI/CD -->
-![CircleCI](https://img.shields.io/badge/CircleCI-%23161616.svg?style=flat-square&logo=circleci&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white)
-
-</div>
+**言語:** PHP, JavaScript, TypeScript  
+**バックエンド:** Laravel, FuelPHP  
+**フロントエンド:** Vue.js, Next.js, Nuxt.js, Chakra UI, Bootstrap  
+**DB:** MySQL, PostgreSQL  
+**インフラ/CI:** AWS, Docker, Terraform, Ansible, Nginx, Apache, CircleCI, Jenkins
 
 ## 開発手法・ツール
 
@@ -103,14 +70,8 @@
 </div>
 
 ### その他ツール
-
-![BigQuery](https://img.shields.io/badge/BigQuery-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
-![DataPortal](https://img.shields.io/badge/DataPortal-%234285F4.svg?style=flat-square&logo=google&logoColor=white)
-![Digdag](https://img.shields.io/badge/Digdag-%23404d59.svg?style=flat-square)
-
-![SendGrid](https://img.shields.io/badge/SendGrid-%230A0FFF.svg?style=flat-square&logo=sendgrid&logoColor=white)
-![LINE](https://img.shields.io/badge/LINE_API-%2300C300.svg?style=flat-square&logo=line&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=flat-square&logo=firebase&logoColor=black)
+**データ処理:** BigQuery, Data Portal, Digdag  
+**サービス連携:** SendGrid, LINE Messaging API, Firebase
 
 ### AWS 認定資格
 AWS Certified Solutions Architect - Associate（2021/06 取得）
