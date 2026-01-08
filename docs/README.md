@@ -17,12 +17,13 @@
 ### プロフィール
 - **氏名**：いのもえ
 - **生年月日**：1992/11/22
-- **職歴**：エンジニア（2015〜2022）→ スクラムマスター（2023〜現在）
+- **職歴**：エンジニア（2015〜2022）→ スクラムマスター（2023〜2025/05）→ アジャイルコーチ（2025/06〜現在）
 
 ### SNS/Portfolio
 [![Github](https://img.shields.io/badge/GitHub-miyakona-%2312100E.svg?style=flat-square&logo=Github&logoColor=white)](https://github.com/miyakona)
 [![Note](https://img.shields.io/badge/note.com-miyakona-41C9B4?style=flat-square&logo=note&logoColor=white)](https://note.com/miyakona)
 [![LAPRAS](https://img.shields.io/badge/LAPRAS-miyakona-00A1E9?style=flat-square&logo=lapras&logoColor=white)](https://lapras.com/public/miyakona)
+[![Podcast](https://img.shields.io/badge/Podcast-%E8%A6%B3%E5%AF%9F%E3%83%A9%E3%82%B8%E3%82%AA-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/5cGW6Ar4hY5eLlCI8PkIvx)
 
 ## 保有スキル
 
@@ -35,13 +36,13 @@
 ### 開発
 - サーバーサイド設計・実装（PHP）
 - フロントエンド実装（JS/TS）
-- インフラ構築・運用
+- インフラ構築・運用（AWS）
 
 ## 興味・価値観
 
-- **チーム協働**：多様な立場の人々が交わりながら一緒にプロダクトを作る環境構築
+- **チーム協働**：多様な立場の人々が交わりながらプロダクトを作る環境構築
 - **アジャイル開発**：小さくサイクルを回し、頻繁にフィードバックを受け取る開発スタイル
-- **価値提供重視**：美しいシステムよりも、ユーザーへの素早い価値提供を重視
+- **価値提供重視**：美しいシステムより、ユーザーへの素早い価値提供を重視
 
 ---
 
@@ -50,11 +51,11 @@
 # 技術スタック
 
 ## 言語・フレームワーク
-**言語:** PHP, JavaScript, TypeScript  
-**バックエンド:** Laravel, FuelPHP  
-**フロントエンド:** React, Vue.js, Next.js, Nuxt.js, Chakra UI  
-**DB:** MySQL, PostgreSQL  
-**インフラ/CI:** AWS, Docker, Terraform, Nginx, CircleCI
+- **言語**：PHP, JavaScript, TypeScript
+- **バックエンド**：Laravel, FuelPHP
+- **フロントエンド**：React, Vue.js, Next.js, Nuxt.js, Chakra UI
+- **DB**：MySQL, PostgreSQL
+- **インフラ/CI**：AWS, Docker, Terraform, Nginx, CircleCI
 
 ## 開発手法・ツール
 
@@ -71,7 +72,8 @@
 
 ### その他ツール
 **データ処理:** BigQuery, Data Portal, Digdag  
-**サービス連携:** SendGrid, LINE Messaging API, Firebase
+**サービス連携:** SendGrid, LINE Messaging API, Firebase  
+**業務効率化:** n8n（ワークフロー自動化）、dify（AI 基盤）
 
 ### AWS 認定資格
 AWS Certified Solutions Architect - Associate（2021/06 取得）
@@ -85,13 +87,13 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 
 ## 株式会社シャペロン（2023/01〜現在）
 
-大規模スクラム（LeSS）フレームワークを採用した組織でスクラムマスターとして活動。コーチング、ファシリテーション、組織運営、採用活動などを担当しています。
+大規模スクラム（LeSS）フレームワークを採用した組織でスクラムマスターとして活動し、2025/06 以降はアジャイルコーチとして支援しています。加えて、コーポレート業務にも関与しています。
 
 <details>
 <summary>主な業務内容</summary>
 
-### スクラムマスター業務（2023/01〜現在）
-- **チーム体制**：PO 1 名、3 チーム（エンジニア 10 名程度、PdM 2 名）、SM 2 名
+### スクラムマスター業務（2023/01〜2025/05）/アジャイルコーチ業務（2025/06〜現在）
+- **チーム体制**：PO 1 名、3 チーム（エンジニア、 PdM 混合のチーム）、SM 2 名
 
 #### コーチング・促進活動
 - スクラム・LeSS の原理原則に基づく自律的チーム支援
@@ -109,7 +111,6 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - 全社オフサイトミーティングの企画・運営、当日ファシリテーション
 
 #### 組織開発
-- 全社オフサイトミーティングの企画・運営
 - 組織ビジョン策定と浸透施策の検討
 - チーム構造の最適化（スクラムチームと LeSS チームの統合）を 3 か月程度で完遂
   - スクラムチームへの LeSS 説明と理解促進
@@ -118,7 +119,7 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - 部門 OKR 策定支援、経営層との課題協議
 - 開発体制の再構築と権限整理
   - 人事評価方法の検討と実施
-  - 開発 生産性 指標（PR 生存期間など）の可視化
+  - 開発生産性の指標（PR 生存期間など）の可視化
   - 勤怠状況の可視化と改善
   - 有料開発ツール（Cursor など）のアカウント管理
 - 社内コミュニティ活性化支援
@@ -130,15 +131,18 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - 大規模プロジェクトのファシリテーション
 - 振り返りワークの計画・実施
 
-### 採用・コーポレート業務（2023/03〜現在）
-- **採用活動**
-  - エンジニア・SM 候補者のスクリーニングとスカウト
-  - 採用プロセスの設計・改善
-  - 面接官として参加
+### 採用業務（2023/03〜現在）
+- エンジニア・SM 候補者のスクリーニングとスカウト
+- 採用プロセスの設計・改善
+- 面接官として参加
+- 採用プロセスの効率化・自動化施策の設計および実装
 
-- **業務 効率化 支援**
-  - OKR 可視化ツールの開発（Google Apps Script）
-  - ツールの運用マニュアル作成
+### コーポレート業務（業務効率化の支援）（2023/03〜2025/11）
+- OKR 可視化ツールの開発（Google Apps Script）および運用マニュアル作成
+
+### コーポレート業務（業務効率化の推進）（2025/12〜現在、アジャイルコーチ兼務）
+- n8n・dify のインフラ管理・運用（全社向け）
+- n8n ワークフロー自動化基盤の構築・運用支援
 
 </details>
 
@@ -168,7 +172,6 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - **会員基盤システム構築**（2022/05〜2022/07）
   - **チーム体制**：エンジニア 3 名、PO 1 名
   - **役割**：進行役（途中参画）
-  - 停滞プロジェクトの進行役として参画
   - 要求整理、システム変更の可視化、ステークホルダー調整
 
 - **コールセンター向けシステム構築**（2021/05〜2021/08）
@@ -243,7 +246,7 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 
 - **全社API リプレイス**（2015/06〜2015/10）
   - **チーム体制**：エンジニア 3 名
-  - **役割**：仕様書 作成 担当
+  - **役割**：仕様書作成の担当
   - **使用技術**：PHP、Java
   - 全サービス利用の API 仕様書の作成（売上 2,211 億円/年規模）
   - 外部・内部仕様書の作成、開発サポート
