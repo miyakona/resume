@@ -73,7 +73,7 @@
 ### その他ツール
 **データ処理:** BigQuery, Data Portal, Digdag  
 **サービス連携:** SendGrid, LINE Messaging API, Firebase  
-**業務効率化:** n8n（ワークフロー自動化）、dify（AI 基盤）
+**業務効率化:** n8n、Dify
 
 ### AWS 認定資格
 AWS Certified Solutions Architect - Associate（2021/06 取得）
