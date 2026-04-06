@@ -1,7 +1,5 @@
 node_modules
 .DS_Store
 **/*.pdf
-yarn-error.log
 .cache
-.yarn/
 _site/
