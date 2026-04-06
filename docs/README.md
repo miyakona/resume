@@ -75,7 +75,7 @@
 ### その他ツール
 **データ処理:** BigQuery, Data Portal, Digdag  
 **サービス連携:** SendGrid, LINE Messaging API, Firebase  
-**業務効率化:** n8n、Dify
+**業務効率化:** n8n、Dify  
 **IT 管理:** freee IT 管理
 
 ### AWS 認定資格
