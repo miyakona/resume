@@ -10,6 +10,7 @@
   "husky": {
     "hooks": "pre-commit"
   },
+  "packageManager": "pnpm@10.12.2",
   "keywords": [],
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.2",
@@ -35,13 +36,17 @@
     "textlint-rule-preset-jtf-style": "^2.3.14",
     "textlint-rule-prh": "^6.0.0"
   },
-  "packageManager": "yarn@4.1.0",
   "dependencies": {
     "puppeteer": "^23.11.1"
   },
-  "resolutions": {
-    "ws": "^8.17.1",
-    "path-to-regexp": "^3.3.0",
-    "minimatch": "^3.0.5"
+  "pnpm": {
+    "overrides": {
+      "ws": "^8.17.1",
+      "path-to-regexp": "^3.3.0",
+      "minimatch": "^3.0.5"
+    },
+    "onlyBuiltDependencies": [
+      "puppeteer"
+    ]
   }
 }
