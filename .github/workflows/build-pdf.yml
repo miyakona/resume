@@ -21,7 +21,11 @@ jobs:
       # 依存パッケージのインストール
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      
+
+      # Puppeteer用Chromeのインストール
+      - name: Install Chrome for Puppeteer
+        run: npx puppeteer browsers install chrome
+
       # detailsとsummaryタグを削除
       - name: Remove details and summary tags
         run: |
