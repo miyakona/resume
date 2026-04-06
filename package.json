@@ -10,6 +10,7 @@
   "husky": {
     "hooks": "pre-commit"
   },
+  "packageManager": "pnpm@10.12.2",
   "keywords": [],
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.2",
