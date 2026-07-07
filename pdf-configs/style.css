@@ -1,8 +1,11 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
 
 body {
   font-size: 12px;
-  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  /* Mac ローカルはヒラギノ、CI(ubuntu) は Web フォント Noto Sans JP または
+     システムの Noto Sans CJK JP を使う。旧設定は CI に日本語フォントが無く
+     豆腐（□）になっていたため修正。 */
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
 }
 
 h1:first-child {

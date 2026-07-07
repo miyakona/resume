@@ -26,13 +26,14 @@ jobs:
       - name: Install Chrome for Puppeteer
         run: npx puppeteer browsers install chrome
 
-      # detailsとsummaryタグを削除
-      - name: Remove details and summary tags
+      # 日本語フォントのインストール（Web フォントが読めない場合の保険。
+      # これが無いと ubuntu には日本語フォントが無く PDF が豆腐になる）
+      - name: Install Japanese fonts
         run: |
-          sed -i -e 's/<details>//g' -e 's/<\/details>//g' -e 's/<summary>.*<\/summary>//g' docs/README.md
-          echo "詳細タグを削除しました"
-          
-      # PDFビルド
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      # PDFビルド（details/summary の除去は generate-pdf.js 内で実施）
       - name: build pdf
         run: npm run build:pdf
       

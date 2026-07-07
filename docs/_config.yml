@@ -1,6 +1,10 @@
-theme: jekyll-theme-minimal
+theme: minima
 markdown: CommonMarkGhPages
 baseurl: "/resume"
 commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+# 本文冒頭の「# 職務経歴書」をページタイトルとして扱い、本文からは除去する
+# （Web ではタイトル重複を防ぎ、PDF 側は本文の見出しをそのままタイトルに使う）
+titles_from_headings:
+  strip_title: true
