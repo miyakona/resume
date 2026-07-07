@@ -1,0 +1,74 @@
+---
+# minima のスタイルを読み込みつつ、日本語の職務経歴書向けに可読性を調整する
+---
+
+@charset "utf-8";
+
+// ===== minima 変数の上書き（@import より前に定義すると反映される） =====
+$base-font-size:   16px;
+$base-line-height: 1.8;   // 行間をゆったりさせて「文字文字」した密度を緩和
+$content-width:    820px;
+$spacing-unit:     32px;
+
+@import "minima";
+
+// ===== 追加の可読性調整 =====
+
+// 本文の行間・段落間隔を広げて読みやすく
+.post-content {
+  line-height: 1.9;
+
+  p, ul, ol, table, blockquote, pre {
+    margin-bottom: 1.3em;
+  }
+
+  li + li {
+    margin-top: 0.35em;
+  }
+}
+
+// 見出しに階層とウェイトを与えてメリハリを出す
+// （本文は # を多用していて全部同じ大きさに見えるのを補正）
+.post-content {
+  h1, h2, h3, h4 {
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 1.85em;
+    margin-top: 2.2em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #e8e8e8;
+  }
+
+  h2 {
+    font-size: 1.4em;
+    margin-top: 1.9em;
+  }
+
+  h3 {
+    font-size: 1.18em;
+    margin-top: 1.5em;
+    color: #444;
+  }
+}
+
+// ページタイトル「職務経歴書」を主役として強調
+.post-title {
+  font-weight: 700;
+  border-bottom: 3px solid $brand-color;
+  padding-bottom: 0.2em;
+}
+
+// 先頭の目次を軽く囲って本文と区切る
+.post-content > ol:first-of-type {
+  background: #f7f8fa;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  padding: 1.2em 1.4em 1.2em 2.8em;
+
+  li + li {
+    margin-top: 0.2em;
+  }
+}

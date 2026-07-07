@@ -7,7 +7,16 @@ async function generatePDF() {
   try {
     // マークダウンファイルを読み込み
     console.log('Markdownファイルを読み込み中...');
-    const mdContent = readFileSync('docs/README.md', 'utf8');
+    const rawContent = readFileSync('docs/README.md', 'utf8');
+
+    // details/summary タグをメモリ上で除去して中身を常に展開する。
+    // PDF では折りたたみが機能せず、閉じたままだと中身が消えてしまうため。
+    // README ファイル自体は書き換えない（ローカルと CI で同じ結果になる）。
+    console.log('details/summary タグを除去中...');
+    const mdContent = rawContent
+      .replace(/<details>/g, '')
+      .replace(/<\/details>/g, '')
+      .replace(/<summary>.*?<\/summary>/g, '');
 
     console.log('PDFに直接変換します...');
     // md-to-pdfを使用して直接PDFに変換（Puppeteerを使わない）

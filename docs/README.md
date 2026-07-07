@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /
+---
+
 # 職務経歴書
 
 1. [基本情報](#basic)
