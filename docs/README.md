@@ -90,6 +90,8 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - **コーディングエージェント**：Claude Code、Codex
 
 ---
+<div class="pdf-page-break"></div>
+
 <a id="carrer"></a>
 
 # 職務経歴詳細

@@ -44,6 +44,11 @@ hr {
 }
 
 @media print {
+  .pdf-page-break {
+    break-before: page;
+    page-break-before: always;
+  }
+
   h1, h2, h3, h4 {
     break-after: avoid;
   }
