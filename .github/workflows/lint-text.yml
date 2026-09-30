@@ -17,3 +17,18 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: lint text
         run: pnpm lint
+      - name: Install Chrome for Puppeteer
+        run: pnpm exec puppeteer browsers install chrome
+      - name: Install PDF tools and Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils fonts-noto-cjk
+      - name: Build PDF
+        run: pnpm run build:pdf
+      - name: Check PDF section pagination
+        run: |
+          if pdftotext -f 2 -l 2 docs/README.pdf - | grep -q '職務経歴詳細'; then
+            echo '職務経歴詳細が2ページ目にあります'
+            exit 1
+          fi
+          pdftotext -f 3 -l 3 docs/README.pdf - | grep -q '職務経歴詳細'
