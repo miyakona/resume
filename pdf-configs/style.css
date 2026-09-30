@@ -44,7 +44,7 @@ hr {
 }
 
 @media print {
-  .pdf-page-break {
+  .pdf-page-start {
     break-before: page;
     page-break-before: always;
   }
