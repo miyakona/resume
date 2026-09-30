@@ -25,6 +25,7 @@ async function generatePDF() {
       {
         dest: "./docs/README.pdf",
         stylesheet: "./pdf-configs/style.css",
+        page_media_type: 'print',
         body_class: "markdown-body",
         marked_options: {
           headerIds: false,
@@ -61,4 +62,4 @@ async function generatePDF() {
   }
 }
 
-generatePDF(); 
+generatePDF();
