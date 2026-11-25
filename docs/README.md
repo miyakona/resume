@@ -22,21 +22,7 @@ permalink: /
 ### プロフィール
 - **氏名**：いのもえ
 - **生年月日**：1992/11/22
-
-### 経歴
-
-<div style="margin: 8px 0 4px;">
-<div style="display: flex; font-size: 11px; line-height: 1.4;">
-<div style="box-sizing: border-box; width: 66.43%; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #cfe3f6;">エンジニア（後半は EM・スクラムマスターを兼務）</div>
-<div style="box-sizing: border-box; width: 25.71%; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #fdf0a6;">SM → アジャイルコーチ</div>
-<div style="box-sizing: border-box; width: 7.86%; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #cfe3f6; padding-left: 2px; padding-right: 0; font-size: 9px; text-overflow: clip;">エンジニア</div>
-</div>
-<div style="display: flex;">
-<div style="box-sizing: border-box; width: 66.43%; padding: 2px 0 0 3px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2015/04</div>
-<div style="box-sizing: border-box; width: 25.71%; padding: 2px 0 0 3px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2023/01</div>
-<div style="box-sizing: border-box; width: 7.86%; padding: 2px 0 0 3px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2026/01</div>
-</div>
-</div>
+- **経歴**：エンジニア（2015/04〜2022/12）→ スクラムマスター・アジャイルコーチ（2023/01〜2025/12）→ **エンジニア（2026/01〜）**
 
 ### 職務要約
 Web サービスのサーバーサイドからインフラまでを担うエンジニアとして 8 年働き、後半はエンジニアリングマネージャーも務めました。その後 3 年間は大規模スクラム（LeSS）のスクラムマスター・アジャイルコーチとしてチームと組織を支援しました。
