@@ -27,8 +27,22 @@ jobs:
         run: pnpm run build:pdf
       - name: Check PDF section pagination
         run: |
-          if pdftotext -f 2 -l 2 docs/README.pdf - | grep -q '職務経歴詳細'; then
-            echo '職務経歴詳細が2ページ目にあります'
-            exit 1
-          fi
-          pdftotext -f 3 -l 3 docs/README.pdf - | grep -q '職務経歴詳細'
+          pages=$(pdfinfo docs/README.pdf | awk '/^Pages:/ {print $2}')
+          found=0
+          for page in $(seq 1 "$pages"); do
+            text=$(pdftotext -f "$page" -l "$page" docs/README.pdf -)
+            # ページ番号（n/N）だけのページは白紙として扱う
+            if [ -z "$(printf '%s\n' "$text" | grep -v '^[[:space:]]*$' | grep -vE '^[[:space:]]*[0-9]+/[0-9]+[[:space:]]*$')" ]; then
+              echo "${page}ページ目が白紙です"
+              exit 1
+            fi
+            if printf '%s\n' "$text" | grep -q '職務経歴詳細'; then
+              first=$(printf '%s\n' "$text" | grep -v '^[[:space:]]*$' | head -n 1)
+              if [ "$page" -eq 1 ] || [ "$first" != '職務経歴詳細' ]; then
+                echo "職務経歴詳細が新しいページの先頭から始まっていません（${page}ページ目）"
+                exit 1
+              fi
+              found=1
+            fi
+          done
+          [ "$found" -eq 1 ]
