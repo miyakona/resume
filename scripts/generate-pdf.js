@@ -16,7 +16,10 @@ async function generatePDF() {
     const mdContent = rawContent
       .replace(/<details>/g, '')
       .replace(/<\/details>/g, '')
-      .replace(/<summary>.*?<\/summary>/g, '');
+      .replace(/<summary>.*?<\/summary>/g, '')
+      // 目次（タイトル直後の番号付きリストと区切り線）は Web 版のページ内リンク用。
+      // PDF では使えないうえ 1 ページ目を圧迫するので外す。
+      .replace(/(^# 職務経歴書\n)\n1\. \[[\s\S]*?\n---\n/m, '$1');
 
     console.log('PDFに直接変換します...');
     // md-to-pdfを使用して直接PDFに変換（Puppeteerを使わない）
