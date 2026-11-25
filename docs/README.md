@@ -311,7 +311,4 @@ PHP を中心としたサーバーサイド開発を担当しました。主に 
 # 業務外活動
 
 - スクラムマスターのコミュニティ「スクラム実験室」運営メンバー
-- 業務で得た技術的な知見を Zenn で発信（64 本、2026/11 時点）：[Zenn](https://zenn.dev/miyakona)
-- 個人開発した LINE Bot の保守・運用：[GitHub リポジトリ](https://github.com/miyakona/usako)
-- LINE スタンプの制作・販売： [販売中スタンプ](https://store.line.me/stickershop/author/241940)
-- サコッシュなどの雑貨の制作・販売： [販売中雑貨](https://miyakona.booth.pm/)
+- 業務で得た技術的な知見を Zenn で発信：[Zenn](https://zenn.dev/miyakona)
