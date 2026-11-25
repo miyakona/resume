@@ -124,4 +124,3 @@ PHP（FuelPHP、Laravel）を中心としたサーバーサイドエンジニア
 # 業務外活動
 
 - スクラムマスターのコミュニティ「スクラム実験室」運営メンバー
-- 業務で得た技術的な知見を Zenn で発信：[Zenn](https://zenn.dev/miyakona)
