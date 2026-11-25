@@ -44,7 +44,8 @@ permalink: /
 - **DB・データ**：MySQL、PostgreSQL、BigQuery
 - **業務改善・AI**：n8n、Dify、MCP サーバー開発、Claude Code、Codex、Playwright
 - **マネジメント**：スクラム・LeSS の運営、ファシリテーション、採用、IT ガバナンス（SaaS 管理・セキュリティ対応）
-- **資格**：Certified LeSS Basics（2025/04 取得）、Certified LeSS Practitioner（2024/11 取得、失効）、Certified ScrumMaster®（2023/04 取得）、AWS Certified Solutions Architect - Associate（2021/06 取得、失効）
+- **資格**：Certified LeSS Basics（2025/04 取得）、Certified ScrumMaster®（2023/04 取得）
+- **失効した資格**：Certified LeSS Practitioner（2024/11 取得）、AWS Certified Solutions Architect - Associate（2021/06 取得）
 
 <h1 id="carrer" class="pdf-page-start">職務経歴詳細</h1>
 
