@@ -22,13 +22,7 @@ table {
 td,
 th {
   border: 1px solid #ddd;
-  padding: 3px 6px;
-}
-
-/* 経歴表の期間・所属は折り返さず、行の高さを 1 行に保つ */
-td:nth-child(1),
-td:nth-child(2) {
-  white-space: nowrap;
+  padding: 5px;
 }
 
 tr:nth-child(even) {

@@ -25,13 +25,24 @@ permalink: /
 
 ### 経歴
 
-| 期間 | 所属 | 役割 |
-|---|---|---|
-| 2015/04〜2019/10 | 合同会社DMM.com | エンジニア（サーバーサイド） |
-| 2019/11〜2022/12 | 株式会社QLife | エンジニア（フルスタック）、後期は EM・SM |
-| 2023/01〜2025/05 | 株式会社シャペロン | スクラムマスター（LeSS） |
-| 2025/06〜2025/12 | 株式会社シャペロン | アジャイルコーチ |
-| 2026/01〜現在 | 株式会社シャペロン | エンジニア（社内業務の自動化、非エンジニア組織の技術支援） |
+<div style="margin: 8px 0 4px;">
+<div style="display: flex; font-size: 11px; line-height: 1.4;">
+<div style="flex: 55; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #eeeeee;"><strong>DMM.com</strong></div>
+<div style="flex: 38; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #eeeeee;"><strong>QLife</strong></div>
+<div style="flex: 47; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #eeeeee;"><strong>シャペロン</strong></div>
+</div>
+<div style="display: flex; font-size: 11px; line-height: 1.4;">
+<div style="flex: 93; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #cfe3f6;">エンジニア（後半は EM・スクラムマスターを兼務）</div>
+<div style="flex: 36; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #fdf0a6;">SM → アジャイルコーチ</div>
+<div style="flex: 11; padding: 4px 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #cfe3f6; font-size: 9px; text-align: center;">エンジニア</div>
+</div>
+<div style="display: flex;">
+<div style="flex: 55; padding: 2px 0 0 2px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2015/04</div>
+<div style="flex: 38; padding: 2px 0 0 2px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2019/11</div>
+<div style="flex: 36; padding: 2px 0 0 2px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2023/01</div>
+<div style="flex: 11; padding: 2px 0 0 2px; border-left: 1px solid #999; white-space: nowrap; color: #666; font-size: 10px;">2026/01〜</div>
+</div>
+</div>
 
 ### 職務要約
 Web サービスのサーバーサイドからインフラまでを担うエンジニアとして 8 年働き、後半はエンジニアリングマネージャーも務めました。その後 3 年間は大規模スクラム（LeSS）のスクラムマスター・アジャイルコーチとしてチームと組織を支援しました。
