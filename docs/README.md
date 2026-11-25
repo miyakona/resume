@@ -27,6 +27,7 @@ permalink: /
 
 ### 発信・ポートフォリオ
 [![Github](https://img.shields.io/badge/GitHub-miyakona-%2312100E.svg?style=flat-square&logo=Github&logoColor=white)](https://github.com/miyakona)
+[![Zenn](https://img.shields.io/badge/Zenn-miyakona-3EA8FF?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/miyakona)
 [![Note](https://img.shields.io/badge/note.com-miyakona-41C9B4?style=flat-square&logo=note&logoColor=white)](https://note.com/miyakona)
 [![LAPRAS](https://img.shields.io/badge/LAPRAS-miyakona-00A1E9?style=flat-square&logo=lapras&logoColor=white)](https://lapras.com/public/miyakona)
 [![Podcast](https://img.shields.io/badge/Podcast-%E8%A6%B3%E5%AF%9F%E3%83%A9%E3%82%B8%E3%82%AA-1DB954?style=flat-square&logo=spotify&logoColor=white)](https://open.spotify.com/show/5cGW6Ar4hY5eLlCI8PkIvx)
@@ -66,7 +67,7 @@ permalink: /
 - **バックエンド**：Laravel, FuelPHP
 - **フロントエンド**：React, Vue.js, Next.js, Nuxt.js, Chakra UI
 - **DB**：MySQL, PostgreSQL
-- **インフラ/CI**：AWS（Fargate, S3, ECS）, AWS CDK, Docker, Terraform, Nginx, CircleCI, GitHub Actions
+- **インフラ/CI**：AWS（Fargate, S3, ECS, Lambda, CloudFront）, AWS CDK, Docker, Terraform, Nginx, CircleCI, GitHub Actions
 
 ## 資格
 <div style="display: flex; gap: 10px; align-items: center;">
@@ -86,6 +87,7 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - **サービス連携**：SendGrid、LINE Messaging API、Firebase
 - **業務効率化**：n8n、Dify
 - **IT 管理**：freee IT 管理
+- **セキュリティ監視**：Amazon GuardDuty、Amazon Inspector、AWS WAF
 - **ブラウザ自動化**：Playwright
 - **コーディングエージェント**：Claude Code、Codex
 
@@ -100,7 +102,7 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 
 2023/01〜2025/05 は大規模スクラム（LeSS）のスクラムマスター、2025/06〜2025/12 はアジャイルコーチとして活動しました。2026/01 からはコーポレート部門に専任し、採用や IT 管理などの社内業務の自動化・省力化を進めています。あわせて、エンジニアが在籍しない組織の IT 基盤づくりと業務改善も支援しています。
 
-社内では定期業務フローの AWS 移行や AI 活用基盤の整備を担当しました。非エンジニア組織では、文献収集と定型成果物の作成を自動化しています。
+社内では定期業務フローの AWS 移行、AI 活用基盤の整備、コーポレートサイトの静的サイト移行を担当しました。非エンジニア組織では、文献収集・有害事象の抽出・定型成果物の作成と納品を自動化し、各システムの管理画面とセキュリティ監視の共通基盤も整備しています。
 
 > **開発の進め方**：2026 年以降はコーディングエージェント（Claude Code / Codex）に設計・実装を委ね、作業指示と成果物のレビューを担当しています。
 
@@ -163,10 +165,19 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - 定期実行する業務フローを既存の自動化基盤から AWS へ移行し、実行監視・障害通知・運用手順を整備。旧基盤の停止まで担当
 - 社内向け MCP サーバーを設計・開発し、IT 管理・勤怠管理・採用管理の SaaS を AI エージェントから操作できるように整備（90 以上のツールを実装）
   - 認証を備えたリモート環境を構築し、社内で利用できる基盤に拡張
+  - 外部 API の遅延に備えたタイムアウト・再試行や、AI が実行できる操作の区別（読み取り専用・破壊的操作）を整備
 - セキュリティチェックシートの回答案を、社内ナレッジと AI から生成する仕組みを構築。ナレッジの月次更新も運用
 - 採用スクリーニングで、AI と人の判定差を検知する業務フローを構築・運用
 - 契約書レビューを AI で支援する業務フローを設計・試作
 - 社内向け AI 活用ワークショップを企画・進行し、グレード別の利用基準を策定
+- 全社会議の録画・資料の整理と通知を自動化
+- AI ツールの利用状況を可視化し、プランを見直せる利用者の抽出や上位プランとの費用比較を実施。従量課金に上限を設け、上限解放の申請フローを整備
+
+#### コーポレートサイトの移行
+- コーポレートサイトを WordPress から静的サイト（GitHub 管理、AWS CloudFront・WAF で配信）へ移行（約 80 ページ）
+  - 既存の URL・表示・SEO 設定を維持し、旧 URL の転送やリンク・メタ情報の自動検査を整備
+  - 外形監視・エラー監視・デプロイ失敗の通知を導入し、旧ホスティングを解約
+- 製品サイトもノーコードツールから静的サイトへ移行し、同じ配信・監視の仕組みに統合
 
 #### IT 管理とセキュリティ
 - 全社の SaaS アカウントを棚卸しし、月次レポートを運用（10 サービス）。リスクの是正や退職者アカウントの無効化も担当
@@ -175,6 +186,8 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
 - AWS 環境にアクセス制限と脅威検知を導入し、管理者アカウントの運用を整備
   - 可観測性の整備、IAM 権限境界・ガードレールの導入も担当
 - コードレビューの自動化やブランチ保護など、開発時の運用ルールを整備
+  - コーディングエージェントの変更を push 前にセルフレビューさせる仕組みと、重要な設定変更を CI で止める仕組みを導入
+- リポジトリでの秘密情報の検知と対応、組織横断の API キー棚卸し、認証局の侵害など外部の脆弱性情報への対応を担当
 
 ### 非エンジニア組織への技術支援（2026〜現在）
 エンジニアが在籍しない組織で、Web サイトや IT 基盤の運用改善から業務の自動化まで、相談と実装の両面から支援しています。
@@ -188,9 +201,18 @@ AWS Certified Solutions Architect - Associate（2021/06 取得）
   - 対象媒体ごとの取得状況を可視化し、取得率の改善を継続
   - AWS での定期実行とローカルでの補助実行を組み合わせ、取得経路ごとに処理を分離
   - Python、AWS、AWS CDK、Playwright を使用し、テストとアクセス権管理も整備
+  - 人手による従来作業と結果を突き合わせ、取りこぼしを継続的に改善。人手から自動処理への移行計画を推進
+- **有害事象の抽出**：収集した文献から有害事象を抽出し、標準用語でコード化する仕組みを構築
+  - 1 段目の判定に別の LLM による 2 段目の確認を加え、モデルを比較して選定。見落としを増やさずに誤登録率を 9.9% から 7.6% に低減
 - **定型業務の自動化**：受信データを照合・加工して定型成果物を生成するシステムを構築
   - 本番環境で処理結果を従来の手作業と比較・検証
-- **インフラのコード管理**：AWS 環境をコードで管理する体制を整備
+  - 週次の定型納品を自動送付へ移行（他メンバーと共同開発。インフラ、メールの送信ドメイン認証、テスト検証を担当）
+- **管理画面の共通基盤**：シングルサインオン・操作ログ・ファイル受け渡しを備えた管理画面の共通部品を整備し、複数のシステムに展開
+- **セキュリティ監視と開発体制**
+  - AWS 組織全体で脆弱性の自動検知（Amazon Inspector）と脅威検知の通知を導入し、検知した脆弱性を更新
+  - AI によるコードレビューを主要リポジトリに導入し、レビュー費用を組織内で負担できる形に切り替え
+  - 障害時の対応を代行できるメンバーを追加し、引き継ぎ手順を整備
+- **インフラのコード管理**：AWS 環境をコードで管理する体制を整備し、既存リソースも CDK の管理下に取り込み
 
 </details>
 
@@ -307,6 +329,7 @@ PHP を中心としたサーバーサイド開発を担当しました。主に 
 # 業務外活動
 
 - スクラムマスターのコミュニティ「スクラム実験室」運営メンバー
+- 業務で得た技術的な知見を Zenn で発信（64 本、2026/11 時点）：[Zenn](https://zenn.dev/miyakona)
 - 個人開発した LINE Bot の保守・運用：[GitHub リポジトリ](https://github.com/miyakona/usako)
 - LINE スタンプの制作・販売： [販売中スタンプ](https://store.line.me/stickershop/author/241940)
 - サコッシュなどの雑貨の制作・販売： [販売中雑貨](https://miyakona.booth.pm/)
