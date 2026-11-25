@@ -27,11 +27,6 @@ permalink: /
 
 <div style="margin: 8px 0 4px;">
 <div style="display: flex; font-size: 11px; line-height: 1.4;">
-<div style="flex: 55; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #eeeeee;"><strong>DMM.com</strong></div>
-<div style="flex: 38; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #eeeeee;"><strong>QLife</strong></div>
-<div style="flex: 47; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #eeeeee;"><strong>シャペロン</strong></div>
-</div>
-<div style="display: flex; font-size: 11px; line-height: 1.4;">
 <div style="flex: 93; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #cfe3f6;">エンジニア（後半は EM・スクラムマスターを兼務）</div>
 <div style="flex: 36; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #fdf0a6;">SM → アジャイルコーチ</div>
 <div style="flex: 11; padding: 4px 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-right: 2px solid #fff; background: #cfe3f6; font-size: 9px; text-align: center;">エンジニア</div>
